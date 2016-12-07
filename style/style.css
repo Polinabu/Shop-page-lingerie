@@ -1,0 +1,156 @@
+body {
+  background: url(../img/model-black-lin.jpg);
+}
+
+.logo-corporelle {
+  width: 50px;
+  height: 50px;
+  margin-left: 40px;
+  display: inline-block;
+  vertical-align: none;
+  margin-right: 60px;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar-brand-horizontal {
+  padding: 0px;
+  display: inline-block;
+  float: none;
+}
+
+.nav-bar-home-page {
+  margin-top: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: inline-block;
+}
+
+.navbar-left-links a {
+  color: hsla(208, 6%, 32%, 0.97);
+  font-family: 'Hind', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  display: inline-block;
+}
+
+.horizontal-line-nav {
+  width: 200px;
+  border-top: 1px solid #8c546e;
+}
+
+.navbar-right-links a {
+  color: hsla(208, 6%, 32%, 0.97);
+}
+
+.russia-link {
+  margin-right: 150px;
+}
+
+.navbar-right-links {
+  display: inline-block;
+}
+
+.navbar-left-vertical a {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90eg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  font-family: 'Hind', sans-serif;
+  color: hsl(358, 16%, 53%);
+}
+
+.nav-bar-vertical {
+  width: 100px;
+  height: 300px;
+}
+
+.navbar-left-vertical a {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.navbar-left-vertical li {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  margin-left: -40;
+}
+
+.navbar-left-vertical {
+  margin-top: 50px;
+}
+
+.main-img {
+  margin-top: -400px;
+  margin-left: 80;
+}
+
+.logo-header-link {
+  display: inline-block;
+  float: left;
+  margin-left: -45px;
+}
+
+.container-vertical-nav {
+  width: 800px;
+  height: 800px;
+  display: inline-block;
+}
+
+
+/*PHOTO*/
+
+.img-main-photo {
+  opacity: 1;
+  -webkit-transition: .2s ease-in-out;
+  transition: .5s ease-in-out;
+  margin-left: 40px;
+  display: inline-block;
+  height: auto;
+  display: inline-block;
+  margin-top: -400;
+}
+
+.img-main-photo:hover {
+  opacity: .8;
+}
+
+/*END PHOTO*/
+
+.navbar-left-links {
+  padding-right: 450px;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-left-section {
+  width: 100px;
+  margin-left: -9;
+  background-color: none;
+  border-color: none;
+}
+
+.navbar-collapse-left {
+  background-color: transparent;
+  border-color: none;
+}
+
+.navbar-default {
+  background-color: transparent;
+  border: none;
+  
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: black;
+}
