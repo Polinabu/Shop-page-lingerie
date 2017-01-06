@@ -1,0 +1,55 @@
+
+@media (max-width: 468px) {
+  .description-brand {
+    width: 100%;
+    text-align: center;
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .photo-product {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .hr-header {
+    display: none;
+  }
+  .navbar-right-links {
+    float: none;
+    display: flex;
+  }
+  .navbar-right-links li {
+    width: 100px;
+    text-align: center;
+  }
+  .navbar .navbar-nav {
+    display: inline-flex;
+  }
+  .russia-link {
+    margin-right: 0px;
+  }
+  .logo-corporelle {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+
+@media (max-width: 865px) {
+  .hr-header {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-left-links {
+    display: flex;
+  }
+  .navbar-left-links li {
+    display: inline-block;
+  }
+  .navbar-right-links li {
+    display: inline-block;
+  }
+  .main-block {
+    width: 65%;
+  }
+}

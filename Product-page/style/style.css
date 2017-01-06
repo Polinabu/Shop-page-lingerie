@@ -114,14 +114,14 @@
   height: 100px;
   background-color: hsla(0, 0%, 69%, 0.2);
   margin: auto;
-  /*  margin-left: 120px;*/
+  margin-top: 50px;
 }
 .products {
   display: inline-block;
   margin-top: 75px;
 }
 .img-product-photo {
-/*  display: inline-block;*/
+  /*  display: inline-block;*/
   width: 225px;
   height: 225px;
   margin-left: 20px;
@@ -142,26 +142,104 @@
 .product-photo {
   float: left;
 }
-@media screen and (max-width: 768px) {
-  .img-product-photo {
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-}
-@media screen and (max-width: 980px) {}
-@media screen and (max-width: 1200px) {}
-
 .season {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   padding-top: 10px;
 }
-
 .year-collection {
   text-align: center;
   font-family: 'Quicksand', sans-serif;
   font-weight: 300;
   font-size: 15px;
+}
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 768px) {
+  .img-product-photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .navbar-left-links {
+    padding-right: 0px;
+  }
+  .navbar-left-vertical a {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0eg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+    font-family: 'Hind', sans-serif;
+    color: hsl(358, 16%, 53%);
+  }
+  .navbar-left-vertical {
+    width: 400px;
+    margin-top: 100px;
+  }
+}
+@media screen and (max-width: 980px) {}
+@media screen and (max-width: 1200px) {}
+@media screen and (max-width: 360px) {
+  .headline {
+    margin-top: 70px;
+    width: 100%;
+  }
+  .navbar-right-links {
+    margin: 0px;
+    display: inline-flex;
+  }
+  .navbar-left-links {
+    display: inline-flex;
+  }
+  .logo-header-link {
+    margin-left: 0px;
+    width: 100%;
+    margin-left: 35%;
+  }
+  .product-row {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .logo-corporelle {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 412px) {
+  .headline {
+    width: 100%;
+    margin-top: 60px;
+  }
+  .product-row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .row-button {
+    width: 100%;
+  }
+  .navbar-left-section {
+    width: 100%;
+    margin: auto;
+  }
+  .navbar-toggle {
+    margin-left: 53%;
+    float: none;
+  }
+  .container-vertical-nav {
+    width: 100%;
+  }
+  .navbar-left-links li {
+    width: 40px;
+     margin: 0px;
+  }
+  .navbar-right-links li {
+    width: 40px;
+    margin-left: 90px;
+  }
+  .navbar-brand-horizontal {
+    width: 100px;
+  }
 }
